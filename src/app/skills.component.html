@@ -1,0 +1,10 @@
+<div id="skills" class="center">
+    <h1 class="center border">Hi, I'm {{name}}</h1>
+    <h2>My Skills:</h2>
+    <ul class ="list center">
+        <li *ngFor="let skill of skills">
+        <p>{{skill.title | uppercase}}</p>
+        <p>{{skill.description}}</p>
+        </li>
+    </ul>
+</div>

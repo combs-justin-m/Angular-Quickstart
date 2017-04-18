@@ -1,0 +1,11 @@
+.center {
+    text-align: center;
+}
+.border {
+    border: 3px solid red;
+}
+ul.list li {
+    display: inline-block;
+    padding-left:80px;
+    padding-right:80px;
+}
